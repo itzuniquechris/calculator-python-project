@@ -1,62 +1,78 @@
-# 🧮 Python Calculator
+# 🧮 Python Simple Calculator
 
-A simple command-line calculator built using Python. This project was created as part of my learning journey in programming.
-
----
-
-## 📌 Features
-
-* Basic arithmetic operations:
-
-  * Addition (+)
-  * Subtraction (-)
-  * Multiplication (*)
-  * Division (/)
-* Continuous calculations using loops
-* Input handling using user input
+A beginner-friendly Python command-line calculator that performs basic arithmetic operations with input validation and error handling.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Features
 
-* Python 3
-
----
-
-## 🚀 How to Run
-
-1. Make sure Python is installed on your computer
-2. Download or clone this repository
-3. Run the file:
-
-```bash
-python calculator.py
-```
+- Addition, Subtraction, Multiplication, Division
+- Input validation (no letters or invalid inputs)
+- Prevents division by zero
+- Supports decimal numbers
+- Loop system for continuous calculations
+- Exit option (y/n)
 
 ---
 
-## 📚 What I Learned
+## 🛠️ How It Works
 
-* Taking user input in Python
-* Using if/elif/else statements
-* Working with loops
-* Basic error handling and program flow
-
----
-
-## 📈 Future Improvements
-
-* Add more operations (%, **)
-* Improve input validation
-* Add a menu system
-* Build a GUI version
+1. User selects an operation (1–4)
+2. User enters first number
+3. User enters second number
+4. Program calculates result
+5. Result is displayed in 2 decimal places
+6. User chooses to continue or stop
 
 ---
 
-## 🧠 Note
+## 💻 Example Output
 
-This is a beginner project made while learning Python. It may not be perfect, but it represents my progress in programming.
+--- Welcome to Python Simple Calculator ---
+
+Available Operations:
+[1] Addition
+[2] Subtraction
+[3] Multiplication
+[4] Division
+
+Choose operation: 1
+
+Enter first number: 10  
+Enter second number: 5  
+
+> Result: 15.00  
+
+Do another calculation? (y/n): y
 
 ---
 
-⭐ If you like this project, feel free to star the repo!
+## 🧠 What I Learned
+
+- if / elif / else statements
+- while loops
+- user input handling
+- float conversion
+- input validation
+- error handling (divide by zero)
+- formatted output (.2f)
+
+---
+
+## 🔥 Future Improvements
+
+- Add % and power (**)
+- Add calculation history
+- Improve UI design
+- Convert into GUI app
+
+---
+
+## 📁 Project Status
+
+Beginner Project (Version 1)  
+Fully functional and improving
+
+---
+
+⭐ Built while learning Python fundamentals
