@@ -1,78 +1,82 @@
-# 🧮 Python Simple Calculator
+# 🏦 Python ATM System (Version 1)
 
-A beginner-friendly Python command-line calculator that performs basic arithmetic operations with input validation and error handling.
+This is my first version of a simple ATM system built using Python.  
+It was created while learning programming fundamentals and logic building.
 
 ---
 
 ## 🚀 Features
 
-- Addition, Subtraction, Multiplication, Division
-- Input validation (no letters or invalid inputs)
-- Prevents division by zero
-- Supports decimal numbers
-- Loop system for continuous calculations
-- Exit option (y/n)
+- PIN authentication system
+- Check account balance
+- Deposit money
+- Withdraw money
+- Input validation (basic)
+- Loop system for continuous use
+- Exit option
 
 ---
 
-## 🛠️ How It Works
+## 🛠️ Technologies Used
 
-1. User selects an operation (1–4)
-2. User enters first number
-3. User enters second number
-4. Program calculates result
-5. Result is displayed in 2 decimal places
-6. User chooses to continue or stop
+- Python 3
+
+---
+
+## 📌 How It Works
+
+1. User enters PIN
+2. If correct → access granted
+3. User sees main menu:
+   - Check Balance
+   - Deposit Money
+   - Withdraw Money
+   - Exit
+4. System runs in loop until user exits
 
 ---
 
 ## 💻 Example Output
 
---- Welcome to Python Simple Calculator ---
+--- WELCOME TO PYTHON BOOTCAMP ATM ---
 
-Available Operations:
-[1] Addition
-[2] Subtraction
-[3] Multiplication
-[4] Division
+Enter your 4-digit PIN: 1234  
+[✓] PIN Verified. Welcome back!
 
-Choose operation: 1
+---------- MAIN MENU ----------
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
 
-Enter first number: 10  
-Enter second number: 5  
-
-> Result: 15.00  
-
-Do another calculation? (y/n): y
+Choose an option: 1  
+[i] Your current balance is: $1000.00
 
 ---
 
 ## 🧠 What I Learned
 
-- if / elif / else statements
 - while loops
+- if / elif / else statements
 - user input handling
-- float conversion
-- input validation
-- error handling (divide by zero)
-- formatted output (.2f)
+- variables and data types
+- basic error checking
+- program flow logic
 
 ---
 
-## 🔥 Future Improvements
+## 📈 Future Improvements (Version 2)
 
-- Add % and power (**)
-- Add calculation history
-- Improve UI design
-- Convert into GUI app
-
----
-
-## 📁 Project Status
-
-Beginner Project (Version 1)  
-Fully functional and improving
+- Better input validation
+- Transaction history
+- Improved UI messages
+- Cleaner code structure (functions)
+- Security improvements
 
 ---
 
-⭐ Built while learning Python fundamentals
+## ⚠️ Note
+
+This is Version 1 of my ATM project and will be improved over time as I learn more Python.
+
+---
